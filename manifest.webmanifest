@@ -1,0 +1,9 @@
+{
+  "name": "LOGOS • Controle de Estoque",
+  "short_name": "LOGOS",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0b0f17",
+  "theme_color": "#111827",
+  "description": "Controle diário de barris por situação: cheio, metade ou vazio."
+}

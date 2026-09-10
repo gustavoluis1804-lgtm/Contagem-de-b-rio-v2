@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#111827" />
+  <title>LOGOS • Controle de Estoque</title>
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app">
+    <header class="hero">
+      <div class="brand-wrap">
+        <div class="logo-placeholder">L</div>
+        <div>
+          <p class="eyebrow">LOGOS • RESTAURANTE</p>
+          <h1>Controle de Estoque</h1>
+          <p class="subtitle">Gerencie barris e oxigênio por unidades, com status cheio, metade ou vazio.</p>
+        </div>
+      </div>
+      <div class="total-box">
+        <span>Total em estoque</span>
+        <strong id="totalUnits">0</strong>
+        <small>unidades</small>
+      </div>
+    </header>
+
+    <section id="stockGrid" class="grid"></section>
+
+    <section class="summary-card">
+      <h2>Resumo atual</h2>
+      <div class="summary-grid">
+        <div><span>Cheios</span><strong id="totalFull">0</strong></div>
+        <div><span>Metade</span><strong id="totalHalf">0</strong></div>
+        <div><span>Vazios</span><strong id="totalEmpty">0</strong></div>
+      </div>
+    </section>
+
+    <section class="actions">
+      <button id="saveDay" class="btn primary">Salvar estoque do dia</button>
+      <button id="shareWhatsApp" class="btn whatsapp">Compartilhar no WhatsApp</button>
+      <button id="resetStock" class="btn ghost">Zerar estoque atual</button>
+    </section>
+
+    <section class="history-card">
+      <div class="section-title">
+        <div>
+          <p class="eyebrow">HISTÓRICO</p>
+          <h2>Registros salvos</h2>
+        </div>
+        <button id="clearHistory" class="text-btn">Limpar histórico</button>
+      </div>
+      <div id="history" class="history"></div>
+    </section>
+  </main>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>

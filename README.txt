@@ -1,0 +1,1 @@
+Versão 4 — LOGOS Restaurante • Controle de Estoque.\nVisual redesenhado para identidade de loja/restaurante.\nItens: Itaipava, Brahma, Vinho e Oxigênio, todos com Cheio, Metade e Vazio.\nInclui salvamento diário, histórico e compartilhamento pelo WhatsApp.\n
